@@ -425,6 +425,9 @@ section {
     box-shadow: 0 5px 15px #000016;
     transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
 }
+.work .content .card a {
+    text-decoration: none;
+}
 
 .work .content .card:hover {
     transform: translateY(-20px) scale(1.1);
@@ -528,6 +531,9 @@ section {
     color: #666;
     font-weight: 500;
     transition: 0.3s ease;
+}
+.contact .content .row .card a {
+    text-decoration: none;
 }
 
 .contact .content .row .card:hover .info span {
